@@ -1,0 +1,132 @@
+Tabelle Version 2.0
+
+[Layout]
+Breite=210
+Höhe=297
+Hochformat=1
+Links=10
+Rechts=10
+Oben=10
+Unten=10
+
+Datum=1
+Seitenzahlen=1
+Laufende Nummer=0
+Gitternetzlinien=1
+Dateiname in Fußzeile=1
+Gleiche Felder untereinander=1
+
+[Datenbank]
+Container=COMPBereiche
+
+[Gruppierung]
+Gruppenwechsel=
+Gruppenüberschrift=
+Gruppenfuß=
+Seitenwechsel=0
+lfdGruppenwechsel=0
+
+[SubFilter] 71
+COMPBereiche=([Bereich (Nr).Nummer] < 10 || [Bereich (Nr).Nummer] = 11)
+Welche=0
+Wieviele=0
+Haupt=0
+
+[Feld]
+Name=Person (Nr).Nummer.Person (Nr)
+NeuName=Person (Nr)
+Unterschrift=
+Linksbündig=0
+Ausblenden=1
+Summe=0
+Gruppensumme=0
+Währung=0
+WährungNull=0
+Breite=0
+Leer=
+
+[Feld]
+Name=Person (Nr).Vorname
+NeuName=Vorname
+Unterschrift=
+Linksbündig=1
+Ausblenden=1
+Summe=0
+Gruppensumme=0
+Währung=0
+WährungNull=0
+Breite=0
+Leer=
+
+[Feld]
+Name=Person (Nr).Name
+NeuName=Name
+Unterschrift=
+Linksbündig=1
+Ausblenden=1
+Summe=0
+Gruppensumme=0
+Währung=0
+WährungNull=0
+Breite=0
+Leer=
+
+[Feld]
+Name=Bereich (Nr).Bereich
+NeuName=Bereich
+Unterschrift=
+Linksbündig=1
+Ausblenden=1
+Summe=0
+Gruppensumme=0
+Währung=0
+WährungNull=0
+Breite=0
+Leer=
+
+[Feld]
+Name=Von
+NeuName=Von
+Unterschrift=
+Linksbündig=1
+Ausblenden=1
+Summe=0
+Gruppensumme=0
+Währung=0
+WährungNull=0
+Breite=0
+Leer=
+
+[Feld]
+Name=Bis
+NeuName=Bis
+Unterschrift=
+Linksbündig=1
+Ausblenden=1
+Summe=0
+Gruppensumme=0
+Währung=0
+WährungNull=0
+Breite=0
+Leer=
+
+[Sortieren] 50
+Person (Nr).Name	H
+Person (Nr).Vorname	H
+Von	H
+
+[Schriftart]
+Name=Arial
+Größe=10
+Farbe=-1
+
+[Überschrift]
+"Alle Zu- und Abgänge in allen Chören"
+
+[Hauptüberschrift]
+Vereinsname()
+
+[Hilfe] 350
+Sämtliche Bereichs- (=Chor-) Eintritte und Austritte werden hier gesammelt. Berücksichtigt werden die Bereiche 1-9 sowie 11 (VC 1/2, KC, JC, LP, jeweils inkl. Schnupperer).
+
+Hierdurch wird eine Analyse der Bewegung der Mitglieder von einem Chor zum nächsten, in Pausenzeiten und wieder zurück, sowie natürlich in den USC und aus ihm heraus möglich.

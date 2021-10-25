@@ -1,0 +1,207 @@
+{
+    "nodes": [
+        {
+            "name": "Extern",
+            "node": 0,
+            "color": "#142735",
+            "xPos": 0,
+            "yPos": 765
+        },
+        {
+            "name": "-> Vorchor I",
+            "node": 1,
+            "color": "#ff0000",
+            "xPos": 1835,
+            "yPos": 0
+        },
+        {
+            "name": "-> Vorchor II",
+            "node": 2,
+            "color": "#fff503",
+            "xPos": 1835,
+            "yPos": 88
+        },
+        {
+            "name": "-> Kinderchor",
+            "node": 3,
+            "color": "#00ff0a",
+            "xPos": 1835,
+            "yPos": 166
+        },
+        {
+            "name": "-> Jugendchor",
+            "node": 4,
+            "color": "#0038ff",
+            "xPos": 1835,
+            "yPos": 353
+        },
+        {
+            "name": "Vorchor I",
+            "node": 5,
+            "color": "#ff0000",
+            "xPos": 0,
+            "yPos": 0
+        },
+        {
+            "name": "-> Extern",
+            "node": 6,
+            "color": "#142735",
+            "xPos": 1835,
+            "yPos": 693
+        },
+        {
+            "name": "Vorchor II",
+            "node": 7,
+            "color": "#f8fc0a",
+            "xPos": 0,
+            "yPos": 96
+        },
+        {
+            "name": "-> Pause",
+            "node": 8,
+            "color": "#8c8060",
+            "xPos": 1835,
+            "yPos": 558
+        },
+        {
+            "name": "Jugendchor",
+            "node": 9,
+            "color": "#0038ff",
+            "xPos": 0,
+            "yPos": 398
+        },
+        {
+            "name": "Kinderchor",
+            "node": 10,
+            "color": "#00ff0a",
+            "xPos": 0,
+            "yPos": 189
+        },
+        {
+            "name": "Les Passerelles",
+            "node": 11,
+            "color": "#b20dff",
+            "xPos": 0,
+            "yPos": 609
+        }
+    ],
+    "links": [
+        {
+            "id": 2,
+            "value": 20,
+            "source": 0,
+            "target": 1
+        },
+        {
+            "id": 13,
+            "value": 3,
+            "source": 0,
+            "target": 2
+        },
+        {
+            "id": 14,
+            "value": 3,
+            "source": 0,
+            "target": 3
+        },
+        {
+            "id": 16,
+            "value": 2,
+            "source": 0,
+            "target": 4
+        },
+        {
+            "id": 8,
+            "value": 11,
+            "source": 5,
+            "target": 1
+        },
+        {
+            "id": 3,
+            "value": 20,
+            "source": 5,
+            "target": 2
+        },
+        {
+            "id": 15,
+            "value": 3,
+            "source": 5,
+            "target": 6
+        },
+        {
+            "id": 12,
+            "value": 4,
+            "source": 7,
+            "target": 2
+        },
+        {
+            "id": 4,
+            "value": 17,
+            "source": 7,
+            "target": 3
+        },
+        {
+            "id": 10,
+            "value": 10,
+            "source": 7,
+            "target": 6
+        },
+        {
+            "id": 17,
+            "value": 1,
+            "source": 7,
+            "target": 8
+        },
+        {
+            "id": 0,
+            "value": 56,
+            "source": 9,
+            "target": 4
+        },
+        {
+            "id": 6,
+            "value": 16,
+            "source": 9,
+            "target": 6
+        },
+        {
+            "id": 11,
+            "value": 5,
+            "source": 9,
+            "target": 8
+        },
+        {
+            "id": 1,
+            "value": 48,
+            "source": 10,
+            "target": 3
+        },
+        {
+            "id": 5,
+            "value": 17,
+            "source": 10,
+            "target": 4
+        },
+        {
+            "id": 9,
+            "value": 11,
+            "source": 10,
+            "target": 6
+        },
+        {
+            "id": 7,
+            "value": 15,
+            "source": 11,
+            "target": 6
+        },
+        {
+            "id": 18,
+            "value": 1,
+            "source": 11,
+            "target": 8
+        }
+    ],
+    "layout": "centered",
+    "opacity": "0.3",
+    "density": "28"
+}
