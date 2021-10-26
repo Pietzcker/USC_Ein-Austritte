@@ -1,0 +1,260 @@
+{
+    "nodes": [
+        {
+            "name": "Extern",
+            "node": 0,
+            "color": "#142735",
+            "xPos": 0,
+            "yPos": 760
+        },
+        {
+            "name": "-> Kinderchor",
+            "node": 1,
+            "color": "#00ff0a",
+            "xPos": 1835,
+            "yPos": 203
+        },
+        {
+            "name": "-> Schnupperer Les Passerelles",
+            "node": 2,
+            "color": "#a80f62",
+            "xPos": 1835,
+            "yPos": 443
+        },
+        {
+            "name": "-> Schnupperer Vorchor I",
+            "node": 3,
+            "color": "#ff0000",
+            "xPos": 1835,
+            "yPos": 0
+        },
+        {
+            "name": "-> Schnupperer Vorchor II",
+            "node": 4,
+            "color": "#fff503",
+            "xPos": 1835,
+            "yPos": 100
+        },
+        {
+            "name": "-> Vorchor I",
+            "node": 5,
+            "color": "#ff0000",
+            "xPos": 1835,
+            "yPos": 14
+        },
+        {
+            "name": "-> Vorchor II",
+            "node": 6,
+            "color": "#fff503",
+            "xPos": 1835,
+            "yPos": 106
+        },
+        {
+            "name": "Jugendchor",
+            "node": 7,
+            "color": "#0038ff",
+            "xPos": 0,
+            "yPos": 294
+        },
+        {
+            "name": "-> Extern",
+            "node": 8,
+            "color": "#142735",
+            "xPos": 1835,
+            "yPos": 774
+        },
+        {
+            "name": "-> Jugendchor",
+            "node": 9,
+            "color": "#0038ff",
+            "xPos": 1835,
+            "yPos": 309
+        },
+        {
+            "name": "Kinderchor",
+            "node": 10,
+            "color": "#00ff0a",
+            "xPos": 0,
+            "yPos": 184
+        },
+        {
+            "name": "Les Passerelles",
+            "node": 11,
+            "color": "#b20dff",
+            "xPos": 0,
+            "yPos": 450
+        },
+        {
+            "name": "-> Les Passerelles",
+            "node": 12,
+            "color": "#b20dff",
+            "xPos": 1835,
+            "yPos": 480
+        },
+        {
+            "name": "Pause",
+            "node": 13,
+            "color": "#142735",
+            "xPos": 0,
+            "yPos": 754
+        },
+        {
+            "name": "Schnupperer Les Passerelles",
+            "node": 14,
+            "color": "#a80f62",
+            "xPos": 0,
+            "yPos": 435
+        },
+        {
+            "name": "Vorchor I",
+            "node": 15,
+            "color": "#ff0000",
+            "xPos": 0,
+            "yPos": 0
+        },
+        {
+            "name": "Vorchor II",
+            "node": 16,
+            "color": "#fff503",
+            "xPos": 0,
+            "yPos": 93
+        }
+    ],
+    "links": [
+        {
+            "id": 17,
+            "value": 2,
+            "source": 0,
+            "target": 1
+        },
+        {
+            "id": 11,
+            "value": 5,
+            "source": 0,
+            "target": 2
+        },
+        {
+            "id": 13,
+            "value": 4,
+            "source": 0,
+            "target": 3
+        },
+        {
+            "id": 19,
+            "value": 1,
+            "source": 0,
+            "target": 4
+        },
+        {
+            "id": 4,
+            "value": 18,
+            "source": 0,
+            "target": 5
+        },
+        {
+            "id": 12,
+            "value": 5,
+            "source": 0,
+            "target": 6
+        },
+        {
+            "id": 14,
+            "value": 4,
+            "source": 7,
+            "target": 2
+        },
+        {
+            "id": 8,
+            "value": 12,
+            "source": 7,
+            "target": 8
+        },
+        {
+            "id": 0,
+            "value": 45,
+            "source": 7,
+            "target": 9
+        },
+        {
+            "id": 2,
+            "value": 24,
+            "source": 10,
+            "target": 1
+        },
+        {
+            "id": 20,
+            "value": 1,
+            "source": 10,
+            "target": 2
+        },
+        {
+            "id": 10,
+            "value": 10,
+            "source": 10,
+            "target": 8
+        },
+        {
+            "id": 9,
+            "value": 11,
+            "source": 10,
+            "target": 9
+        },
+        {
+            "id": 1,
+            "value": 42,
+            "source": 11,
+            "target": 12
+        },
+        {
+            "id": 15,
+            "value": 4,
+            "source": 14,
+            "target": 2
+        },
+        {
+            "id": 21,
+            "value": 1,
+            "source": 14,
+            "target": 12
+        },
+        {
+            "id": 5,
+            "value": 17,
+            "source": 15,
+            "target": 5
+        },
+        {
+            "id": 3,
+            "value": 19,
+            "source": 15,
+            "target": 6
+        },
+        {
+            "id": 18,
+            "value": 2,
+            "source": 15,
+            "target": 8
+        },
+        {
+            "id": 6,
+            "value": 17,
+            "source": 16,
+            "target": 1
+        },
+        {
+            "id": 7,
+            "value": 16,
+            "source": 16,
+            "target": 6
+        },
+        {
+            "id": 16,
+            "value": 4,
+            "source": 16,
+            "target": 8
+        }
+    ],
+    "layout": "centered",
+    "opacity": "0.3",
+    "density": "28"
+}
